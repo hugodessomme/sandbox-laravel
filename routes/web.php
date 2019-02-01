@@ -44,3 +44,4 @@ Route::delete('/projects/{project}', 'ProjectsController@destroy'); // @see 7
 // OR
 Route::resource('projects', 'ProjectsController');
 
+Route::resource('tests', 'TestsController');
