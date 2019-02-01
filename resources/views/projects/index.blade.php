@@ -7,7 +7,9 @@
 
     <ul>
         @foreach ($projects as $project)
-            <li>{{ $project->title }}</li>
+            <li>
+                {{ $project->title }} (<a href="/projects/{{ $project->id }}/edit">edit</a>)
+            </li>
         @endforeach
     </ul>
 @endsection
