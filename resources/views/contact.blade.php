@@ -3,5 +3,5 @@
 @section('title', 'Contact Us')
 
 @section('content')
-    <h1>Contact Form</h1>
+    <h1 class="title">Contact</h1>
 @endsection
